@@ -1,0 +1,38 @@
+.class public final Lcom/emilsjolander/components/StickyListHeaders/R$id;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/emilsjolander/components/StickyListHeaders/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "id"
+.end annotation
+
+
+# static fields
+.field public static final __stickylistheaders_divider_view:I = 0x7f06000a
+
+.field public static final __stickylistheaders_header_view:I = 0x7f060007
+
+.field public static final __stickylistheaders_list_item_view:I = 0x7f060008
+
+.field public static final __stickylistheaders_list_view:I = 0x7f060009
+
+.field public static final __stickylistheaders_wrapper_view:I = 0x7f06000b
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .prologue
+    .line 13
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
